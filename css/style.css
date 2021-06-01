@@ -474,6 +474,51 @@
      font-size: 15px;
      line-height: 70px;
      color: #565656;
+     text-align: center;
+ }
+ 
+ footer .footer .widget .content form .error {
+     color: red;
+ }
+ /* التنسيقات التي تم تعديلها من أجل أن تناسب الشاشات التي تملك عرض بين 768 - 990 بكسل */
+ 
+ @media (max-width: 990px) and (min-width: 768px) {
+     section.banner .overlay .banner-text button {
+         margin: 0px 0 40px;
+         width: 210px;
+     }
+     section.banner .overlay .banner-text button:last-child {
+         margin-right: 0px;
+     }
+     section.feature {
+         padding: 90px 0 0;
+     }
+     section.feature .features {
+         margin-top: -40px;
+     }
+     section.feature .features i {
+         width: 50px;
+         height: 50px;
+         line-height: 50px;
+     }
+     section.banner .overlay .images img {
+         width: 115%;
+     }
+     section.banner .overlay .images {
+         bottom: -80px;
+         right: -80px;
+     }
+     section.option .options .media {
+         margin-bottom: 30px;
+     }
+     section.option {
+         padding: 40px 0 0;
+     }
+     footer .footer .widget .content ul.social-links li a {
+         width: 40px;
+         height: 40px;
+         line-height: 40px;
+     }
  }
  /* وسم التنسيقات التي ستطبق على الشاشات بين 576 بكسل و 767 بكسل */
  

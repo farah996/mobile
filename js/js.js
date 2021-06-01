@@ -6,3 +6,8 @@ $(document).ready(function() {
     });
     wow.init();
 });
+
+// emailForm على النموذج validate تطبيق التابع
+$(function() {
+    $("#emailForm").validate();
+});
